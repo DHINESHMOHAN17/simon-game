@@ -5,7 +5,7 @@ let level = 0;
 let gameStart = false;
 let currentLevel = 0;
 
-$(document).keypress(function () {
+$(document).ont("keypress touchstart",function () {
   if (!gameStart) {
     gameStart = true;
     level = 0;
